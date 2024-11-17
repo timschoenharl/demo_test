@@ -1,0 +1,7 @@
+modules = ["python-base-3.13"]
+run = "python backpack.py"
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "run = \"python backpack.py\""]
